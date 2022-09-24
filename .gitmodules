@@ -1,0 +1,6 @@
+[submodule "db/mariadb"]
+	path = db/mariadb
+	url = git@github.com:StarveZhou/mariadb-server.git
+[submodule "db/mysql"]
+	path = db/mysql
+	url = git@github.com:StarveZhou/mysql-server.git
