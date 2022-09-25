@@ -1,0 +1,5 @@
+install/
+3rd-party/
+run/
+db/mysql/build_debug/
+db/mysql/build_release/

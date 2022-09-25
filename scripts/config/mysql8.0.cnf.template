@@ -1,0 +1,8 @@
+[mysqld]
+user=root
+basedir=/home/zhoujy/code/DB-Comparation/install/mysql/debug/mysql
+datadir=/home/zhoujy/code/DB-Comparation/run/mysql/debug/data
+port=4066
+server-id=1
+socket=/home/zhoujy/code/DB-Comparation/run/mysql/debug/data/mysql.sock
+log_error=/home/zhoujy/code/DB-Comparation/run/mysql/debug/error.log
