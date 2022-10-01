@@ -27,11 +27,6 @@ function cmake_debug {
         -DWITH_CURL=0
 }
 
-function cmake_debug {
-    cd $MYSQL_DBG_BUILD_DIR
-    make -j10
-}
-
 function cmake_release_cleanup {
     rm -rf $MYSQL_REL_BUILD_DIR/*
 }

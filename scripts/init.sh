@@ -50,4 +50,19 @@ function mysql_init {
     echo "Init over"
 }
 
-mysql_init
+function mariadb_init {
+    # sudo apt-get install software-properties-common devscripts equivs
+    # sudo apt-key adv --recv-keys \
+    #   --keyserver hkp://keyserver.ubuntu.com:80 \
+    #   0xF1656F24C74CD1D8
+    # sudo add-apt-repository --update --yes --enable-source \
+    #    'deb [arch=amd64] http://nyc2.mirrors.digitalocean.com/mariadb/repo/10.3/ubuntu '$(lsb_release -sc)' main'
+    
+    sudo apt-get install libboost-all-dev
+    sudo apt install libsnappy-dev
+    sudo apt install curl libcurl4-openssl-dev
+    sudo apt -y install liblz4-dev
+    sudo apt install liblzo2-dev
+    sudo apt install libzstd-dev
+}
+
